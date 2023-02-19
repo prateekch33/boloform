@@ -1,0 +1,16 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3% 6%;
+}
+
+.hero-text {
+  width: 50%;
+}
+
+.hero-video iframe {
+  border: 5px solid #915bff;
+  border-radius: 15px;
+  width: 80vh;
+}

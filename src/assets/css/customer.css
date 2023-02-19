@@ -1,0 +1,22 @@
+.customer-trust .heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+
+.customer-trust {
+  padding: 3% 6%;
+}
+
+.customer-trust .image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customer-trust .image img {
+  width: 100%;
+}

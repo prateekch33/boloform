@@ -1,0 +1,78 @@
+.workflows {
+  padding: 2%;
+  margin: auto 4%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 90%;
+}
+
+.workflows .heading {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+}
+
+.workflows .workflow-animation {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.workflows .workflow-animation .left .left-anim,
+.workflows .workflow-animation .right .right-anim {
+  display: flex;
+  flex-direction: column;
+  padding: 3% 6%;
+  width: 100%;
+  border-radius: 10px;
+}
+.workflows .workflow-animation .left .left-anim {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.8851190134256828) 0%,
+    rgba(252, 241, 251, 1) 32%
+  );
+}
+
+.workflows .workflow-animation .right .right-anim {
+  background: rgb(236, 245, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(236, 245, 255, 1) 66%,
+    rgba(255, 255, 255, 0.8851190134256828) 100%
+  );
+}
+
+.workflows .workflow-animation .left .left-anim .row,
+.workflows .workflow-animation .right .right-anim .row {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 4% 3%;
+  margin: 2%;
+}
+
+.workflows .workflow-animation .left,
+.workflows .workflow-animation .right {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+}
+
+.workflows .workflow-animation .left-line-mob,
+.workflows .workflow-animation .right-line-mob {
+  display: none;
+}
+
+.workflows .workflow-animation .logo {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,42 @@
+.testimonials2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3% 15%;
+  background-color: #915bff;
+  margin: 2% auto;
+  color: #fff;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.testimonials2 img {
+  width: 15%;
+}
+
+.testimonials2 .author {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 25%;
+  margin: 3% auto 1% auto;
+}
+
+.testimonials2 .author img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.testimonials2 .author .names {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testimonials2 .author .names h4,
+.testimonials2 .author .names p {
+  margin: 0;
+}

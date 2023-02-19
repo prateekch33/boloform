@@ -1,0 +1,14 @@
+.premium {
+  padding: 3% 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.premium .animation {
+  width: 40%;
+}
+
+.premium .premium-text {
+  width: 50%;
+}

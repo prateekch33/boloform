@@ -1,0 +1,34 @@
+.working .img-grid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1% 5%;
+}
+
+.working .img-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.working .img-card img {
+  width: 100%;
+}
+
+.working {
+  padding: 3% 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.working .heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+}

@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@300&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  font-size: 45px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 700;
+  padding: 3% 6%;
+}
+
+button i {
+  margin-right: 10px;
+}
+
+.premium-btn,
+.hero-btn,
+.test-btn {
+  background-color: #915bff;
+  color: #fff;
+}
+
+.install-btn,
+.tst-btn {
+  border: 2px solid #915bff;
+  background-color: #fff;
+  color: #915bff;
+}
+
+.inner-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 8%;
+}
+
+@media (max-width: 992px) {
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+  .mob-nav {
+    display: block;
+  }
+  .mob-nav {
+    /* display: none; */
+    position: fixed;
+    width: 86%;
+    top: 0;
+    background-color: #ffffff;
+    padding: 0 4%;
+  }
+  .nav-logo {
+    width: 40%;
+  }
+  .hidden-nav {
+    max-width: 100%;
+    display: none;
+    flex-direction: column;
+  }
+
+  .navbar,
+  .navbar2 {
+    display: none;
+  }
+
+  .left-nav,
+  .nav-list,
+  .right-nav,
+  .hero,
+  .working .img-grid,
+  .testimonials .testimonial-btns,
+  .testimonials .checks,
+  .features .multi-sec,
+  .premium,
+  .testimonials2 .author,
+  .workflows .workflow-animation,
+  .support .cards,
+  .faq .list,
+  .top-row,
+  .testimonials .feedback .details {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .faq .list,
+  .testimonials .feedback .details .desc {
+    align-items: center;
+  }
+
+  .workflows .workflow-animation .left,
+  .workflows .workflow-animation .right {
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .workflows .workflow-animation .left-line,
+  .workflows .workflow-animation .right-line {
+    display: none;
+  }
+
+  .workflows .workflow-animation .left-line-mob,
+  .workflows .workflow-animation .right-line-mob {
+    display: block;
+  }
+
+  .features .multi-sec .sec,
+  .premium .animation,
+  .hero-btn {
+    width: 100%;
+  }
+  .testimonials .feedback .details .desc img {
+    width: 60%;
+  }
+
+  .faq .list .column {
+    width: 80%;
+  }
+
+  .hero-text,
+  .working .img-card,
+  .premium .premium-text,
+  .support .cards .card {
+    width: 90%;
+    margin-bottom: 2%;
+  }
+
+  .nav-items,
+  .right-nav button,
+  .testimonials .testimonial-btns button {
+    margin: 3%;
+  }
+
+  .testimonials .feedback .details .img img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .guarantee {
+    width: 90%;
+  }
+
+  .hero,
+  .premium,
+  .support,
+  .faq,
+  .scroller,
+  .img-grid {
+    padding: 0;
+    width: 100%;
+  }
+
+  .hero {
+    margin-top: 15%;
+  }
+
+  .hero-video iframe {
+    width: 96vw;
+  }
+
+  .scroller-card {
+    height: 20vh;
+  }
+  .scroller-card img {
+    width: 120px;
+  }
+  .bottom-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

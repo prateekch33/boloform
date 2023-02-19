@@ -1,0 +1,46 @@
+.scroller {
+  padding: 3% 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+}
+
+.scroller .heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+
+.scroller-array {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  overflow-x: auto;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-150%);
+  }
+}
+
+.scroller-card {
+  width: 100%;
+  margin: 1%;
+  padding: 3% 6%;
+  border: 1px solid #929292a0;
+  border-radius: 10px;
+  animation: marquee 2s forwards ease-in-out;
+}
+
+.scroller-card img {
+  width: 100%;
+}

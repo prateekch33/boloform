@@ -1,0 +1,22 @@
+.features {
+    padding: 6%;
+  }
+  
+  .features .heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2%;
+  }
+  
+  .features .multi-sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .features .multi-sec .sec {
+    width: 30%;
+    padding: 1%;
+  }
