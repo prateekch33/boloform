@@ -11,7 +11,7 @@ export default function Support() {
     <>
       <div className="support" id="support">
         <div className="heading">
-          <img src={star3} alt="star" />
+          <img src={star3} alt="star" style={{width:"100%"}}/>
           <h1>
             Award-winning support<span>.</span>
           </h1>
